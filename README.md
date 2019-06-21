@@ -1,12 +1,12 @@
-# Chirper Project
+# Twitter-like Project
 
-This repo is a code-along with the first project in the [React Nanodegree program](https://www.udacity.com/course/react-nanodegree--nd019).
+This repo is lesson project of Redux in [React Nanodegree program](https://www.udacity.com/course/react-nanodegree--nd019).
 
-Most of the commits in this repository correspond to videos in the program.
+
 
 ## Project Setup
 
-* clone the Project - `git@github.com:udacity/reactnd-chirper-app.git`
+* This project's starter code repo  - `https://github.com/udacity/reactnd-chirper-app.git`
 * install the dependencies - `npm install`
 
 ## Contributing
