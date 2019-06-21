@@ -1,6 +1,6 @@
 # Twitter-like Project
 
-This repo is lesson project of Redux in [React Nanodegree program](https://www.udacity.com/course/react-nanodegree--nd019).
+This repo is a lesson of Redux in [React Nanodegree program](https://www.udacity.com/course/react-nanodegree--nd019).
 
 
 
