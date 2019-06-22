@@ -3,13 +3,15 @@ import { receiveUsers } from '../actions/users';
 import { receiveTweets } from '../actions/tweets';
 import { setAuthedUser } from '../actions/authedUser';
 
+const AUTHED_ID = 'tylermacginnis';
+
 export function handleInitialData () {
     return (dispatch) => {
         return getInitialData()
             .then(({ users, tweets }) => {
                 dispatch(receiveUsers(users))
                 dispatch(receiveTweets(tweets))
-                dispatch(setAuthedUser(id))
+                dispatch(setAuthedUser(AUTHED_ID))
             })
     };
 }
