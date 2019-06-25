@@ -11,13 +11,12 @@ class Tweet extends Component {
         
     handleLike = event => {
         event.preventDefault();
-        // todo: Handle Like Tweets
+        // todo: Handle Like Tweet.
     }
 
     toParent = (event, id) => {
         event.preventDefault();
         // todo: Redirect to parent Tweet.
-
     }
 
     render() {
@@ -53,7 +52,7 @@ class Tweet extends Component {
                         <TiArrowBackOutline className='tweet-icon' />
                         <span>{replies !== 0 && replies}</span>
                         <button className='heart-button' onClick={this.handleLike}>
-                            {hasLiked === true
+                            {hasLiked
                                 ? <TiHeartFullOutline color='#e0245e' className='tweet-icon' />
                                 : <TiHeartOutline className='tweet-icon' />
                             }
