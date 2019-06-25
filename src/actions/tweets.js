@@ -22,6 +22,7 @@ function toggleTweet ({ id, authedUser, hasLiked}) {
 export function handleToggleTweet (info) {
     return (dispatch) => {
         dispatch(toggleTweet(info))
+        
         return saveLikeToggle(info)
             .catch(event => {
                 console.warn(`Error in handleToggleTweet: `, event)
