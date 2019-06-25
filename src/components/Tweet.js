@@ -4,7 +4,7 @@ import { formatTweet, formatDate } from '../utils/helpers';
 import {
     TiArrowBackOutline,
     TiHeartOutline,
-    TiHeartFullOutline
+    TiHeartFullOutline,
 } from 'react-icons/ti/index';
 
 class Tweet extends Component {
