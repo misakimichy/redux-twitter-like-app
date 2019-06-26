@@ -48,7 +48,7 @@ class NewTweet extends Component {
                         </div>
                     )}
                     <button
-                        className='byn'
+                        className='btn'
                         type='submit'
                         disabled={text === ''}
                     >
