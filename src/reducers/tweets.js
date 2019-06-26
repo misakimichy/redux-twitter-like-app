@@ -20,6 +20,7 @@ export default function tweets (state = {}, action) {
         }
         case ADD_TWEET :
             const { tweet } = action;
+
             let replyingTo = {};
             if(tweet.replyingTo !== null) {
                 replyingTo = {
@@ -32,7 +33,7 @@ export default function tweets (state = {}, action) {
 
             return {
                 ...state,
-                [action.tweet.id]: action.tweet,
+                [tweet.id]: action.tweet,
                 ...replyingTo,
             }
         default :
