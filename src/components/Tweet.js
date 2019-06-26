@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { formatTweet, formatDate } from '../utils/helpers';
 import {
     TiArrowBackOutline,
     TiHeartOutline,
-    TiHeartFullOutline,
-} from 'react-icons/ti/index';
-import { handleToggleTweet } from '../actions/tweets';
+    TiHeartFullOutline
+} from 'react-icons/ti';
 import { Link, withRouter } from 'react-router-dom';
+import { formatTweet, formatDate } from '../utils/helpers';
+import { handleToggleTweet } from '../actions/tweets';
+
 
 class Tweet extends Component {
-        
     handleLike = event => {
         event.preventDefault();
         
